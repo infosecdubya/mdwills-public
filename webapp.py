@@ -27,4 +27,4 @@ if __name__ == '__main__':
     #app.run(debug=True)
     parameterized_register.create_estate_file()
     from waitress import serve
-    serve(app, host='192.168.1.168', port='8888')
+    serve(app, host='127.0.0.1', port='8888')
