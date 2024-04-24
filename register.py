@@ -7,11 +7,6 @@ import csv
 from bs4 import BeautifulSoup
 from csv import DictReader, DictWriter
 
-'''http = urllib3.PoolManager(
-    cert_reqs="CERT_REQUIRED",
-    ca_certs=certifi.where()
-)'''
-
 headers = {
     'authority': 'registers.maryland.gov',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
